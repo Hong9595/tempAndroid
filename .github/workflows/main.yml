@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Generate apk
-    runs-on: ubuntu-latestp
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
